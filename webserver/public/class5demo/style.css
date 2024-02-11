@@ -1,0 +1,10 @@
+.text-body {
+    background-color: blueviolet;
+    color: white;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/877369086/photo/lion-panthera-leo-10-years-old-isolated-on-white.jpg?s=170667a&w=0&k=20&c=_vFp6sUp2TbQVkorabDKd6Rn75ryI4-FUCfHtctzsro=");
+    background-repeat: repeat;
+    background-size: 50px;
+}

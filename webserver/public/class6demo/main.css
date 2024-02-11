@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    /* overflow-y: hidden; */
+    height: 100%;
+}
+
+.content-container{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: monospace;
+    text-align: center;
+
+    border: solid red 10px;
+    /* padding: 50px; */
+}
+
+.button-class{
+    position: absolute;
+    top: 50%;
+    right: 48%;
+
+    background-color: lightgreen;
+    padding: 3px;
+    border: black dashed 2px;
+    cursor: pointer;
+
+    transition: opacity .25s linear;
+}
+
+.button-class:hover{
+    opacity: 0.5;
+}
+
+.day{
+    background-color: white;
+    text: black;
+}
+
+.night{
+    background-color: black;
+    text: white;
+}
+

@@ -1,0 +1,24 @@
+<%- include('header.ejs', {}) %>
+            <div class="project-container">
+                <% projects.forEach( (indivProject)=>{ %>
+                    <div class="indivProject-container">
+
+                        <%if(indivProject.file) {%>
+                        <div class="projFile"><img src="<%=indivProject.file%>">
+                        </div>
+
+                        <p class="projName"><%=indivProject.name%></p>
+
+                        <p class="projMembers"><%=indivProject.members%></p>
+                        
+                        <% } %>
+                    </div>
+                <%})%>
+            </div>
+
+            <div class="outline-button">
+                <a href="/add">
+                    <button>Add Project<span></span></button>
+                </a>
+            </div>
+<%- include('footer.ejs', {}) %>

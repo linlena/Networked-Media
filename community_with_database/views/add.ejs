@@ -1,0 +1,10 @@
+<%- include('header.ejs', {}) %>
+    <div class="form-container">
+    <form class="form" method="POST" action="upload" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Project Name">
+        <input type="file" name="theimage">
+        <input type="text" name="members" placeholder="Group Members">
+        <input type="submit" name="submitbutton" value="Submit">
+    </form>
+    </div>
+<%- include('footer.ejs', {}) %>
